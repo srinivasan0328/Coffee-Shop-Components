@@ -1,0 +1,115 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.contactUsSection{
+    /* background-color: #ffff00; */
+}
+
+/* step3: componentContainer */
+.contactUsContainer{
+    /* background-color: #00ffff; */
+    
+}
+
+/* step4: row 1*/
+.headingBody{
+    /* background-color: #8a2be2; */
+}
+
+/* step5: column 1*/
+.headingBlock{
+    /* background-color: #a52a2a; */
+}
+
+/* step6: subColumn 1 */
+.headingBox{
+    /* background-color: #71583d; */
+}
+
+/* step6: subColumn 2*/
+.headingImgBox{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.headingImgBox img{
+    /* background-color: #d2de87; */
+}
+
+/* step7: contentContainer */
+.headingBox h2{
+    /* background-color: #7373da; */
+}
+
+/* step4: row 2 */
+.contactUsBody{
+    /* background-color: #432a2a; */
+}
+
+/* step5: column 1*/
+.contactUsImgBlock{
+    /* background-color: #ffff73; */
+}
+
+/* step6: subColumn 1 */
+.contactUsImgBox{
+    /* background-color: #e279e2; */
+}
+
+/* step7: contentContainer */
+.contactUsImgBox img{
+    /* background-color: #849d65; */
+}
+
+/* step5: column 2*/
+.contactUsFormBlock{
+    /* background-color: #6f8ba2; */
+}
+
+/* step6: subColumn 1 */
+.contactUsFormBox{
+    /* background-color: #6fa2cb; */
+}
+
+/* step6: subColumn 2 */
+.formTitle{
+    /* background-color: #9467be; */
+}
+/* step7: contentContainer */
+.formTitle h3{
+    /* background-color: #d8bfd8; */
+}
+
+/* step6: subColumn 3 */
+.contactBox{
+    /* background-color: #668f7a; */
+}
+
+/* step7: contentContainer */
+.contactBox input{
+    /* background-color: #4f7f67; */
+}
+
+.contactBox button{
+    /* background-color: #6495ed; */
+}
+
+.contactBox button:hover{
+    /* background: #ff69b4; */
+}

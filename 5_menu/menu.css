@@ -1,0 +1,104 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.menuSection{
+    /* background-color: #00ffff; */
+}
+
+/* step3: componentContainer */
+.menuContainer{
+    /* background-color: #ffe4c4; */
+}
+
+/* step4: row 1 */
+.headingBody{
+    /* background-color: #ffff00; */
+}
+
+/* step5: column 1 */
+.headingBlock{
+    /* background-color: #a52a2a; */
+}
+
+/* step6: subColumn 1*/
+.headingBox{
+    /* background-color: #0000ff; */
+}
+
+/* step6: subColumn 2*/
+.headingImgBox{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.headingImgBox img{
+    /* background-color: #d2de87; */
+    height: 4rem;
+}
+
+.headingBox h2{
+    /* background-color: #414190; */
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--secondaryColor);
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+/* step4: row 2 */
+.menuBody{
+    /* background-color:#ffd700; */
+    width: 85%;
+    margin: auto;
+}
+
+/* step5: column 1 */
+.menuBlock{
+    /* background-color: #ee82ee; */
+    
+}
+
+/* step6: subColumn 1*/
+.menuCard{
+    /* background-color: #ff6347; */
+}
+
+/* step6: subColumn 2*/
+.menuCardHead{
+    /* background-color: #a66256; */
+}
+
+/* step7: contentContainer */
+.menuCardHead img{
+    /* background-color: #846237; */
+    height: 30rem;
+}
+
+.menuCardBody{
+    /* background-color: #bd93d2; */
+}
+
+/* step6: subColumn 3*/
+.menuCardBody p{
+    /* background-color: #008080; */
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}

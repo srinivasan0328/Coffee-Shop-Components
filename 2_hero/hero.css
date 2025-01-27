@@ -1,0 +1,138 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.heroSection{
+    /* background-color: turquoise; */
+    width: 100%;
+}
+
+/* step3: componentContainer */
+.heroContainer{
+    /* background-color: #ff6347; */
+}
+
+/* step4: row */
+.heroBody{
+    /* background-color: #00ffff; */
+    padding: 0rem;
+}
+
+/* step5: column */
+.heroBlock{
+    background-color: #ffe4c4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15rem 0rem;
+}
+
+/* step6: subColumn */
+.heroBox{
+    /* background-color: #10dab2; */
+    width: 50%;
+}
+
+/* step7: contentContainer */
+.heroBox h1{
+    /* background-color: #7fff00; */
+    font-family: var(--ffPrimary);
+    font-size: 5rem;
+    color: var(--secondaryColor);
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.heroBox p{
+    /* background-color: #b2cb9a; */
+    color: var(--secondaryColor);
+    margin-bottom: 2rem;
+}
+
+.heroBox button{
+    background-color:var(--primaryColor);
+    color: var(--tertiaryColor);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+}
+
+.heroBox button:hover{
+    background: #000000;
+}
+
+/* media queries
+
+
+@media (max-width: 576px) {
+
+    .heroBox{
+        margin-left: 5rem;
+    }
+
+    .heroBox h1{
+        font-size: 3.1rem;
+    }
+
+    .heroBox p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (width >= 577px) and (width <=768px) {
+
+    .heroBox{
+        margin-left: 5rem;
+    }
+
+    .heroBox h1{
+        font-size: 3rem;
+    }
+
+    .heroBox p{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media (width >=769px) and (width <=992px) {
+    .heroBox{
+        margin-left: 4rem;
+    }
+
+    .heroBox h1{
+        font-size: 4rem;
+    }
+
+    .heroBox p{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (width >=993px) and (width <=1200px) {
+    
+}
+
+
+XX-Large devices (larger desktops, upto 1400px and above)
+@media (width >=1200px) {
+   
+} */

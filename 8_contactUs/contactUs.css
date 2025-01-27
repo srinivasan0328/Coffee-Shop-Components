@@ -1,0 +1,138 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.contactUsSection{
+    /* background-color: #ffff00; */
+}
+
+/* step3: componentContainer */
+.contactUsContainer{
+    /* background-color: #00ffff; */
+    
+}
+
+/* step4: row 1*/
+.headingBody{
+    /* background-color: #834ab7; */
+}
+
+/* step5: column 1*/
+.headingBlock{
+    /* background-color: #895353; */
+}
+
+/* step6: subColumn 1 */
+.headingBox{
+    /* background-color: #b5a08a; */
+}
+
+/* step6: subColumn 2*/
+.headingImgBox{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.headingImgBox img{
+    /* background-color: #d2de87; */
+    height: 4rem;
+}
+
+/* step7: contentContainer */
+.headingBox h2{
+    /* background-color: #5c5c89; */
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--secondaryColor);
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+/* step4: row 2 */
+.contactUsBody{
+    /* background-color: #bc6e6e; */
+}
+
+/* step5: column 1*/
+.contactUsImgBlock{
+    /* background-color: #ffff00; */
+}
+
+/* step6: subColumn 1 */
+.contactUsImgBox{
+    /* background-color: #835283; */
+}
+
+/* step7: contentContainer */
+.contactUsImgBox img{
+    /* background-color: #ee82ee; */
+}
+
+/* step5: column 2*/
+.contactUsFormBlock{
+    /* background-color: #6289aa; */
+}
+
+/* step6: subColumn 1 */
+.contactUsFormBox{
+    /* background-color: #4682b4; */
+    border: 1px solid var(--darkColor);
+    padding: 1rem 10rem;
+}
+
+/* step6: subColumn 2 */
+.formTitle{
+    /* background-color: #755197; */
+}
+
+/* step7: contentContainer */
+.formTitle h3{
+    /* background-color: #d8bfd8; */
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* step6: subColumn 3 */
+.contactBox{
+    /* background-color: #00ff7f; */
+}
+
+/* step7: contentContainer */
+.contactBox input{
+    /* background-color: #77ac91; */
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    border: 1px solid var(--darkColor);
+    margin-bottom: 3rem;
+}
+
+.contactBox button{
+    background-color: var(--tertiaryColor);
+    color: var(--primaryColor);
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.contactBox button:hover{
+    background: var(--darkColor);
+}

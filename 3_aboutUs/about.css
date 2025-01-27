@@ -1,0 +1,91 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.aboutUsSection{
+    /* background-color: #7ababa; */
+}
+
+/* step3: componentContainer */
+.aboutContainer{
+    /* background-color: #3f3f81; */
+}
+
+/* step4: row */
+.aboutUsBody{
+    /* background-color: #b384b3; */
+}
+
+/* step5: column1 */
+.aboutUsImageBlock{
+    /* background-color: #8a2be2; */
+    
+}
+
+/* step6: subColumn1 */
+.aboutUsImageBox{
+    /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.aboutUsImageBox img{
+    /* background-color: #a55959; */
+}
+
+/* step5: column2 */
+.aboutUsBlock{
+    /* background-color: #8e8e55; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn2 */
+.abutUsBox{
+    /* background-color: #508250; */
+}
+
+/* step7: contentContainer */
+.abutUsBox h2{
+    /* background-color: #e56464; */
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--secondaryColor);
+    text-transform: capitalize;
+}
+
+.abutUsBox p{
+    /* background-color: #387d60; */
+    font-family: var(--ffSecondary);
+    color: var(--secondaryColor);
+    margin-bottom: 2rem;
+}
+
+.abutUsBox button{
+    background-color: var(--tertiaryColor);
+    padding: 1rem 3rem;
+    border: none;
+    color: var(--primaryColor);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.abutUsBox button:hover{
+    background: var(--darkColor);
+}

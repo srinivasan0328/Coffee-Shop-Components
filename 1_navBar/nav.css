@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid rgb(0, 255, 21); */
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f8f1f1;
+    font-family: "Merienda", sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    background-color: #f8f1f1;
+    font-family: "Merienda", sans-serif;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+}
+
+:root {
+    --primaryColor: #ffffff;
+    --secondaryColor: #212529;
+    --tertiaryColor: #be9c79;
+    --darkColor: #000000;
+    --lightColor: #dbd5d5;
+    --regularFont: 1.4rem;
+    --headingFont: 2rem;
+    --ffPrimary: "Merienda", sans-serif;
+    --ffSecondary: "Nunito", sans-serif;
+}
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.navBarSection{
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 1px 5px 1px var(--lightColor);
+}
+
+/* step3: componentContainer */
+.navBarContainer{
+    /* background-color: #6666ab; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* step4: row */
+.navBody{
+    /* background-color: #d49494; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 2rem;
+    
+}
+
+/* step5: column 1 */
+.logoBlock{
+    /* background-color: #7d4c4c; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem  0rem;
+}
+
+/* step6: subColumn 1 */
+.logoBox{
+    /* background-color: #b8860b; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* step7: contentContainer */
+.logoBox img{
+    /* background-color: #b55d5d; */
+    height: 5rem;
+    margin-left: 5rem;
+}
+
+/* step5: column 2 */
+.navLinkBlock{
+    /* background-color: #ffff00; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn 1 */
+.navLinkBox{
+    /* background-color: #ad926f; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/* step7: contentContainer */
+.navLinkBox li{
+    /* background-color: #9acd32; */
+    list-style: none;
+    font-size: 2rem;
+    /* justify-content: space-around; */
+}
+
+.navLinkBox a{
+    /* background-color: #d2691e; */
+    text-decoration: none;
+    color: var(--secondaryColor);
+    width: 100%;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    padding: 0rem 1.5rem;
+}

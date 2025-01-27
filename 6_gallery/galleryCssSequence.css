@@ -1,0 +1,71 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.gallerySection{
+    /* background-color: #8ae2e2; */
+}
+
+/* step3: componentContainer */
+.galleryContainer{
+    /* background-color: #5f5fdd; */
+}
+
+/* step4: row 1 */
+.headingBody{
+    /* background-color: #9d70c8; */
+}
+
+/* step5: column */
+.headingBlock{
+    /* background-color: #ad6161; */
+}
+
+/* step6: subColumn */
+.headingImgBox{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.headingImgBox img{
+    /* background-color: #d2de87; */
+}
+
+.headingBox h2{
+    /* background-color: #414190; */
+}
+
+/* step4: row 2 */
+.galleryBody{
+    /* background-color: #b36969; */
+}
+
+/* step5: column */
+.galleryBlock{
+    /* background-color: #c7c770; */
+}
+
+/* step6: subColumn */
+.galleryCard{
+    /* background-color: #69443d; */
+}
+
+/* step7: contentContainer */
+.galleryCard img{
+    /* background-color: #58a382; */
+}

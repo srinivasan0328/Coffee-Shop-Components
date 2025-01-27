@@ -1,0 +1,75 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.aboutUsSection{
+    /* background-color: #7ababa; */
+}
+
+/* step3: componentContainer */
+.aboutContainer{
+    /* background-color: #3f3f81; */
+}
+
+/* step4: row */
+.aboutUsBody{
+    /* background-color: #b384b3; */
+}
+
+/* step5: column1 */
+.aboutUsImageBlock{
+    /* background-color: #8a2be2; */
+    
+}
+
+/* step6: subColumn1 */
+.aboutUsImageBox{
+    /* background-color: #e1dc87;  */
+}
+
+/* step7: contentContainer */
+.aboutUsImageBox img{
+    /* background-color: #a55959; */
+}
+
+/* step5: column2 */
+.aboutUsBlock{
+    /* background-color: #8e8e55; */
+}
+
+/* step6: subColumn2 */
+.abutUsBox{
+    /* background-color: #508250; */
+}
+
+/* step7: contentContainer */
+.abutUsBox h2{
+    /* background-color: #e56464; */
+}
+
+.abutUsBox p{
+    /* background-color: #387d60; */
+}
+
+.abutUsBox button{
+    /* background-color: #ee82ee; */
+}
+
+.abutUsBox button:hover{
+    /* background: #6495ed; */
+}

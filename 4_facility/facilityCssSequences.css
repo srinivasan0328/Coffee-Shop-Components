@@ -1,0 +1,95 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.facilitySection{
+    /* background-color: #00ffff; */
+}
+
+/* step3: componentContainer */
+.facilityContainer{
+    /* background-color: #ffe4c4; */
+}
+
+/* step4: row 1 */
+.headingBody{
+    /* background-color: #ffff00; */
+}
+
+/* step5: column 1 */
+.headingBlock{
+    /* background-color: #a52a2a; */
+}
+
+/* step6: subColumn 1*/
+.headingBox{
+    /* background-color: #0000ff; */
+}
+
+/* step6: subColumn 2*/
+.headingImgBox{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.headingImgBox img{
+    /* background-color: #d2de87; */
+}
+
+.headingBox h2{
+    /* background-color: #414190; */
+}
+
+/* step4: row 2 */
+.facilityBody{
+    /* background-color:#ffd700; */
+}
+
+/* step5: column 1 */
+.facilityBlock{
+    /* background-color: #ee82ee; */
+}
+
+/* step6: subColumn 1*/
+.facilityCard{
+    /* background-color: #ff6347; */
+}
+
+/* step6: subColumn 2*/
+.facilityCardHead{
+    /* background-color: #d2b48c; */
+}
+
+/* step7: contentContainer */
+.facilityCardHead img{
+    /* background-color: #846237; */
+}
+
+/* step6: subColumn 3*/
+.facilityCardBody{
+    /* background-color: #008080; */
+}
+
+/* step7: contentContainer */
+.facilityBody h3{
+    /* background-color: #57938f; */
+}
+
+.facilityBody p{
+    /* background-color: #577930; */
+}

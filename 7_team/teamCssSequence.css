@@ -1,0 +1,85 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.teamSection{
+    /* background-color: #8ae2e2; */
+}
+
+/* step3: componentContainer */
+.teamContainer{
+    /* background-color: #5f5fdd; */
+}
+
+/* step4: row 1 */
+.headingBody{
+    /* background-color: #9d70c8; */
+}
+
+/* step5: column */
+.headingBlock{
+    /* background-color: #ad6161; */
+}
+
+/* step6: subColumn */
+.headingImgBox{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.headingImgBox img{
+    /* background-color: #d2de87; */
+}
+
+.headingBox h2{
+    /* background-color: #414190; */
+}
+
+/* step4: row 2 */
+.teamBody{
+    /* background-color: #b36969; */
+}
+
+/* step5: column */
+.teamBlock{
+    /* background-color: #c7c770; */
+}
+
+/* step6: subColumn 1*/
+.teamCard{
+    /* background-color: #ff6347; */
+}
+
+/* step6: subColumn 2*/
+.teamCardHead{
+    /* background-color: #a66256; */
+}
+
+/* step7: contentContainer */
+.teamCardHead img{
+    /* background-color: #846237; */
+}
+
+.teamCardBody{
+    /* background-color: #bd93d2; */
+}
+
+/* step6: subColumn 3*/
+.teamCardBody p{
+    /* background-color: #008080; */
+}

@@ -1,0 +1,53 @@
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.heroSection {
+  /* background-color: #40e0d0; */
+}
+
+/* step3: componentContainer */
+.heroContainer {
+  /* background-color: #ff6347; */
+}
+
+/* step4: row */
+.heroBody {
+  /* background-color: #00ffff; */
+}
+
+/* step5: column */
+.heroBlock {
+  /* background-color: #ffe4c4; */
+}
+
+/* step6: subColumn */
+.heroBox {
+  /* background-color: #10dab2; */
+}
+
+/* step7: contentContainer */
+.heroBox h1 {
+  /* background-color: #7fff00; */
+}
+
+.heroBox p {
+  /* background-color: #344425; */
+}
+
+.heroBox button {
+  /* background-color: #769b52; */
+}

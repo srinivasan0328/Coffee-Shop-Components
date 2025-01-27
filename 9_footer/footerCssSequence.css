@@ -1,0 +1,90 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+
+/* already written in style.css */
+
+/* step2: component */
+.footerSection{
+    /* background-color: #00ffff; */
+}
+
+/* step3: componentContainer */
+.footerContainer{
+    /* background-color: #ffe4c4; */
+}
+
+/* step4: row 1 */
+.footerBody{
+    /* background-color: #ffff00; */
+}
+
+/* step5: column 1 */
+.footerBlock{
+    /* background-color: #a52a2a; */
+}
+
+/* step6: subColumn 1*/
+.footerCard{
+    /* background-color: #ff6347; */
+}
+
+/* step6: subColumn 2*/
+.footerCardHead{
+    /* background-color: #d2b48c; */
+}
+
+/* step7: contentContainer */
+.footerCardHead i{
+    /* background-color: #d2b48c; */
+}
+
+/* step6: subColumn 2*/
+.facilityCardBody{
+    /* background-color: #008080; */
+}
+
+/* step7: contentContainer */
+.footerCardBody h3{
+    /* background-color: #57938f; */
+}
+
+.footerCardBody p{
+    /* background-color: #577930; */
+}
+
+/* step4: row 2 */
+.copyRightsBody{
+    /* background-color: #ba5aba; */
+}
+
+/* step5: column 1 */
+.copyRightsBlock{
+    /* background-color: #3da4a4; */
+}
+
+/* step6: subColumn 1*/
+.copyRightsBox{
+    /* background-color: #a9a9a9; */
+}
+
+/* step7: contentContainer */
+.copyRightsBox p{
+    /* background-color: #e9b5b5; */
+}
+
+.copyRightsBox span{
+    /* background-color: #a2c391; */
+}
