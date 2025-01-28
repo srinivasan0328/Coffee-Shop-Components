@@ -56,8 +56,7 @@ footer {
     /* background-color: #d49494; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0rem 2rem;
-    
+    padding: 2rem;
 }
 
 /* step5: column 1 */
@@ -66,7 +65,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem  0rem;
 }
 
 /* step6: subColumn 1 */
@@ -141,13 +139,13 @@ footer {
 
 /* step4: row */
 .heroBody{
-    /* background-color: #00ffff; */
+    background-color: #ffe4c4;
     padding: 0rem;
 }
 
 /* step5: column */
 .heroBlock{
-    background-color: #ffe4c4;
+   /* background-color: #00ffff; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -429,14 +427,11 @@ footer {
 /* step4: row 2 */
 .menuBody{
     /* background-color:#ffd700; */
-    width: 85%;
-    margin: auto;
 }
 
 /* step5: column 1 */
 .menuBlock{
     /* background-color: #ee82ee; */
-    
 }
 
 /* step6: subColumn 1*/
@@ -586,8 +581,6 @@ footer {
 /* step4: row 2 */
 .teamBody{
     /* background-color: #b36969; */
-    width: 85%;
-    margin: auto;
 }
 
 /* step5: column */
@@ -609,7 +602,6 @@ footer {
 .teamCardHead img{
     /* background-color: #846237; */
     padding: 0rem 1.5rem;
-    
 }
 
 .teamCardBody{
@@ -769,22 +761,23 @@ footer {
 
 /* step4: row 1 */
 .footerBody{
-    /* background-color: #ffff00; */
+    /* background-color: #4b74d4; */
 }
 
 /* step5: column 1 */
 .iconBlock{
     /* background-color: #a52a2a; */
+    
 }
 
 /* step6: subColumn 1*/
 .footerCard{
-    /* background-color: #ff6347; */
+    /* background-color: #a785a3; */
 }
 
 /* step6: subColumn 2*/
 .footerCardHead{
-    /* background-color: #d2b48c; */
+    /* background-color: #99d28c; */
 }
 
 /* step7: contentContainer */
