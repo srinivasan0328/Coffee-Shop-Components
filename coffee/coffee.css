@@ -693,7 +693,8 @@ footer {
 
 /* step5: column 2*/
 .contactUsFormBlock{
-    /* background-color: #6289aa; */
+    /* background-color: #64aa62; */
+    width: 100%;
 }
 
 /* step6: subColumn 1 */
@@ -701,6 +702,7 @@ footer {
     /* background-color: #4682b4; */
     border: 1px solid var(--darkColor);
     padding: 1rem 10rem;
+    width: 90%;
 }
 
 /* step6: subColumn 2 */
@@ -719,6 +721,7 @@ footer {
 /* step6: subColumn 3 */
 .contactBox{
     /* background-color: #00ff7f; */
+    width: 150%;
 }
 
 /* step7: contentContainer */
@@ -728,6 +731,7 @@ footer {
     padding: 1rem 2rem;
     border: 1px solid var(--darkColor);
     margin-bottom: 3rem;
+    width: 100%;
 }
 
 .contactBox button{
@@ -745,6 +749,7 @@ footer {
 }
 
 /* footer */
+
 /* step1: parentContainer */
 
 /* already written in style.css */
@@ -761,34 +766,42 @@ footer {
 
 /* step4: row 1 */
 .footerBody{
-    /* background-color: #4b74d4; */
+    /* background-color: #ffff00; */
 }
 
 /* step5: column 1 */
 .iconBlock{
     /* background-color: #a52a2a; */
-    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 /* step6: subColumn 1*/
 .footerCard{
-    /* background-color: #a785a3; */
+    /* background-color: #ebd9d5; */
 }
 
 /* step6: subColumn 2*/
 .footerCardHead{
-    /* background-color: #99d28c; */
+    background-color: #BE9C79;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* step7: contentContainer */
 .footerCardHead i{
     /* background-color: #d2b48c; */
-    margin-bottom: 5rem;
 }
 
 /* step6: subColumn 2*/
-.facilityCardBody{
-    /* background-color: #008080; */
+.footerCardBody{
+    /* background-color: #9cc0c0; */
+    padding: 2rem;
+    width: 100%;
 }
 
 /* step7: contentContainer */
@@ -833,7 +846,7 @@ hr{
 /* step7: contentContainer */
 .copyRightsBox p{
     /* background-color: #e9b5b5; */
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     font-size: 2rem;
     text-transform: capitalize;
 }

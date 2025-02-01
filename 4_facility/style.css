@@ -200,12 +200,24 @@ footer {
 /* Medium devices (tablets, upto 768px and above) */
 @media (width >=577px) and (width <=768px) {
     /* write code here */
+    
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
 /* Large devices (Laptops, upto 992px and above) */
 @media (width >=769px) and (width <=992px) {
     /* write code here */
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 
