@@ -20,19 +20,23 @@
       <div class="navBarContainer"> <!-- componentContainer-->
         <div class="navBody"> <!-- row -->
           <div class="logoBlock"> <!-- column1 -->
+            <input type="checkbox" id="check">
             <figure class="logoBox"> <!-- subColumn1 -->
               <img src="./assets/images/logo.png" alt="coffee shop logo"> <!-- contentContainer -->
             </figure>
           </div>
           <div class="navLinkBlock"> <!-- column2 -->
             <ul class="navLinkBox"> <!-- subColumn1 -->
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Menu</a></li>
-              <li><a href="">Gallery</a></li>
-              <li><a href="">Team</a></li>
-              <li><a href="">Contact</a></li>
+              <li class="nli1"><a href="">Home</a></li>
+              <li class="nli2"><a href="">About</a></li>
+              <li class="nli3"><a href="">Menu</a></li>
+              <li class="nli4"><a href="">Gallery</a></li>
+              <li class="nli5"><a href="">Team</a></li>
+              <li class="nli6"><a href="">Contact</a></li>
             </ul>
+            <label for="check" class="checkBtn">
+              <i class="fa-solid fa-bars" style="color: #9a9e9e;"></i>
+            </label>
           </div>
         </div>
       </div>
@@ -397,7 +401,7 @@
               <div class="formTitle"> <!-- subColumn 2 -->
                 <h3>Book a table</h3>
               </div>
-              <form action="" class="contactBox dflex-col">   <!-- subColumn 3 -->
+              <form action="" class="contactBox dflex-col" method="POST">   <!-- subColumn 3 -->
                 <input type="text" name="text" placeholder="Enter Your Name">
                 <input type="number" name="number" placeholder="Enter Your Number">
                 <input type="number" name="number" placeholder="How Many Guests">
@@ -482,7 +486,6 @@
         
       </div>
     </div>
-
     
   </footer>
 </body>

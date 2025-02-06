@@ -60,7 +60,7 @@ svg {
 
 :root {
     --primaryColor: #ffffff;
-    --secondaryColor: #212529;
+    --secondaryColor: #2f3439;
     --tertiaryColor: #be9c79;
     --darkColor: #000000;
     --lightColor: #dbd5d5;
@@ -200,12 +200,16 @@ footer {
 /* Medium devices (tablets, upto 768px and above) */
 @media (width >=577px) and (width <=768px) {
     /* write code here */
+
 }
 
 
 /* Large devices (Laptops, upto 992px and above) */
 @media (width >=769px) and (width <=992px) {
     /* write code here */
+    .navLinkBox li{
+        display: none;
+    }
 }
 
 
