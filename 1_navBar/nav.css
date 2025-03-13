@@ -63,29 +63,11 @@ body {
 
 /* ::::CSS Sequence (7 steps):::: */
 
-
-/* :::PARENT CONTAINER Code Starts here::: */
-
+/* step1: parentContainer */
 header {
     width: 100%;
     height: auto;
 }
-
-main {
-    width: 100%;
-    height: auto;
-}
-
-footer {
-    width: 100%;
-    height: auto;
-}
-
-/* :::PARENT CONTAINER Code Ends here::: */
-
-/* step1: parentContainer */
-
-/* already written in style.css */
 
 /* step2: component */
 .navBarSection{
@@ -156,12 +138,13 @@ footer {
 .navLinkBox li{
     /* background-color: #9acd32; */
     list-style: none;
-    font-size: 2rem;
 }
 
 .navLinkBox a{
     /* background-color: #d2691e; */
     text-decoration: none;
+    font-size: 2rem;
+    font-family: var(--ffSecondary);
+    line-height: 1.5;
     color: var(--secondaryColor);
-    width: 100%;
 }
