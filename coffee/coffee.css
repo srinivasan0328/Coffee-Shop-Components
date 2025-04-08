@@ -169,10 +169,11 @@ footer {
 .heroContainer{
     /* background-color: #ff6347; */
     background-image: url(./assets/images/home-bg.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100%;
 }
 
 /* step4: row */
@@ -213,21 +214,16 @@ footer {
 }
 
 .heroBox button{
-    background-color:var(--tertiaryColor);
-    color: var(--primaryColor);
-    font-size: 1.8rem;
+    background-color: var(--tertiaryColor);
     padding: 1rem 3rem;
     border: none;
-    transition: background-color 0.3s ease;
-    cursor: pointer; 
+    color: var(--primaryColor);
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 .heroBox button:hover{
-    background: #000000;
-}
-
-.heroSection button:hover{
-    /* background: black; */
+    background: var(--darkColor);
 }
 
 /* aboutUs */
@@ -892,4 +888,81 @@ hr{
 .copyRightsBox span{
     /* background-color: #a2c391; */
     color: var(--tertiaryColor);
+}
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+@media (width <=576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .navLinkBox{
+        display: none;
+    }
+
+    .heroBox{
+        /* background-color: #10dab2; */
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+    .navLinkBox{
+        display: none;
+    }
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .heroBox{
+        /* background-color: #10dab2; */
+        width: 100%;
+    }
+    .contactUsBody, .aboutUsBody{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+    .navLinkBox li{
+        display: flex;
+    }
+    .heroBox{
+        /* background-color: #10dab2; */
+        width: 100%;
+    }
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+@media (width >=1200px) {
+    /* write code here */
 }
